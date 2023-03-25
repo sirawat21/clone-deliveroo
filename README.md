@@ -1,5 +1,5 @@
 # Cloned Deliveroo App
-This project is a cloned derivery app named Deliveroo. The main goal of the project is practing of intregrated Redux for React Native app.
+The purpose of this project is to practice integrated Redux for a React Native app, which is a cloned delivery app called Deliveroo.
 ### Commands:
 Create and Start project
 ```
