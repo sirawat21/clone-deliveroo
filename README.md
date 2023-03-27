@@ -11,3 +11,4 @@ npx expo start
 - React Native [sorce](https://reactnative.dev/docs/getting-started)
 - Native Wind [sorce](https://www.nativewind.dev/)
 - React Native Navigation [sorce](https://reactnavigation.org/docs/getting-started)
+- React Native Hero Icon [sorce](npm i react-native-heroicons react-native-svg)
