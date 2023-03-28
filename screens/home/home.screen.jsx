@@ -14,7 +14,7 @@ import {
   UserIcon,
   MagnifyingGlassIcon,
 } from "react-native-heroicons/outline";
-import { Categroies } from "../components";
+import { Categroies } from "../../components";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
