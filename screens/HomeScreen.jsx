@@ -1,11 +1,18 @@
 import { useLayoutEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
-import { SafeAreaView, View, Text, Image, TextInput } from "react-native";
+import {
+  SafeAreaView,
+  View,
+  Text,
+  Image,
+  TextInput,
+  ScrollView,
+} from "react-native";
 import {
   AdjustmentsVerticalIcon,
   ChevronDownIcon,
   UserIcon,
-  MagnifyingGlassIcon
+  MagnifyingGlassIcon,
 } from "react-native-heroicons/outline";
 
 const HomeScreen = () => {
@@ -19,7 +26,6 @@ const HomeScreen = () => {
 
   return (
     <SafeAreaView className="bg-white pt-5 h-auto">
-      <Text className="text-red-500">
         {/* Header */}
         <View className="flex-row pb-3 items-center mx-4 space-x-2 px-4">
           <Image
@@ -51,7 +57,11 @@ const HomeScreen = () => {
           </View>
           <AdjustmentsVerticalIcon color="#00CCBB" />
         </View>
-      </Text>
+        {/* Context */}
+        <ScrollView>
+          {/* Component Categroies */}
+          {/* Featured Rows */}
+        </ScrollView>
     </SafeAreaView>
   );
 };
