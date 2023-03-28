@@ -1,0 +1,1 @@
+export { default as Categroies } from "./categories/categories.component";
