@@ -13,7 +13,7 @@ const HomeScreen = () => {
   });
 
   return (
-    <SafeAreaView>
+    <SafeAreaView className="bg-white pt-5">
       <Text className="text-red-500">
         {/* Header */}
         <View className="flex-row pb-3 items-center mx-4 space-x-2">
@@ -23,7 +23,7 @@ const HomeScreen = () => {
             }}
             className="h-7 w-7 bg-gray-300 p-4 rounded-full"
           />
-          <View>
+          <View className="flex-1">
             <Text className="font-bold text-xs text-gray-400">
               Deliver Now!
             </Text>
@@ -34,6 +34,7 @@ const HomeScreen = () => {
           </View>
           <UserIcon size={35} color="#00CCBB" />
         </View>
+        {/* Search */}
       </Text>
     </SafeAreaView>
   );
