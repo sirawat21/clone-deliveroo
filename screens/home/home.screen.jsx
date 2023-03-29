@@ -56,9 +56,9 @@ const HomeScreen = () => {
         </View>
         <AdjustmentsVerticalIcon color="#00CCBB" />
       </View>
-      {/* Context */}
+      {/* Body */}
       <ScrollView>
-        {/* Component Categroies */}
+        {/* Categroies */}
         <Categroies />
         {/* Featured Rows */}
       </ScrollView>
