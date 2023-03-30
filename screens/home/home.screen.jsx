@@ -45,7 +45,7 @@ const HomeScreen = () => {
         <UserIcon size={35} color="#00CCBB" />
       </View>
       {/* Search */}
-      <View className="flex-row items-center space-x-2 pb-2 mx-4 px-4">
+      <View className="flex-row items-center space-x-2 pb-2 mx-4">
         <View className="flex-row space-x-2 bg-gray-200 p-3">
           <MagnifyingGlassIcon color="gray" size={20} />
           <TextInput
@@ -57,7 +57,12 @@ const HomeScreen = () => {
         <AdjustmentsVerticalIcon color="#00CCBB" />
       </View>
       {/* Body */}
-      <ScrollView>
+      <ScrollView
+        className="bg-gray-100"
+        contentContainerStyle={{
+          paddingHorizontal: 15,
+        }}
+      >
         {/* Categroies */}
         <Categroies />
         {/* Featured Rows */}
