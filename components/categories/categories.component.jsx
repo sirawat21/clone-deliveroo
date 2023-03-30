@@ -12,7 +12,7 @@ const Categroies = () => {
         paddingTop: 10,
       }}
     >
-      <CategoryCard />
+      <CategoryCard imgUrl="https://links.papareact.com/wru" title="Test"/>
     </ScrollView>
   );
 };

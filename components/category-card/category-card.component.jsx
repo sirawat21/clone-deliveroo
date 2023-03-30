@@ -1,11 +1,12 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, Image, TouchableOpacity } from "react-native";
 
-const CategoryCard = () => {
+const CategoryCard = ({ imgUrl, title }) => {
   return (
-    <View>
-      <Text>CategoryCard</Text>
-    </View>
+    <TouchableOpacity className="relative mr-2">
+      <Text className="absolute bottom-1 left-1 text-white font-bold">{title}</Text>
+      <Image className="h-20 w-20 rounded" source={{ uri: imgUrl }} />
+    </TouchableOpacity>
   );
 };
 
