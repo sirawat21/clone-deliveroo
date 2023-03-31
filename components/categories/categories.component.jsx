@@ -9,7 +9,7 @@ const Categroies = () => {
       showsHorizontalScrollIndicator={false}
       contentContainerStyle={{
         paddingHorizontal: 15,
-        paddingTop: 10,
+        paddingTop: 15,
       }}
     >
       <CategoryCard imgUrl="https://links.papareact.com/wru" title="Test"/>
