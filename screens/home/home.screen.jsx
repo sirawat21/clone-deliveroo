@@ -14,7 +14,7 @@ import {
   UserIcon,
   MagnifyingGlassIcon,
 } from "react-native-heroicons/outline";
-import { Categroies } from "../../components";
+import { Categroies, FeatureRow } from "../../components";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -66,6 +66,9 @@ const HomeScreen = () => {
         {/* Categroies */}
         <Categroies />
         {/* Featured Rows */}
+        <FeatureRow id="1" title="TestTitle" description="Some detail here." />
+        <FeatureRow id="2" title="TestTitle" description="Some detail here." />
+        <FeatureRow id="3" title="TestTitle" description="Some detail here." />
       </ScrollView>
     </SafeAreaView>
   );

@@ -13,6 +13,7 @@ const Categroies = () => {
       }}
     >
       <CategoryCard imgUrl="https://links.papareact.com/wru" title="Test"/>
+      <CategoryCard imgUrl="https://links.papareact.com/wru" title="Test2"/>
     </ScrollView>
   );
 };
