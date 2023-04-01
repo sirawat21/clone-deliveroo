@@ -24,7 +24,18 @@ const FeatureRow = ({
         }}
         showsHorizontalScrollIndicator={false}
       >
-        <RestaurantCard />
+        <RestaurantCard 
+        id={123}
+        imgUrl="https://links.papareact.com/gn7"
+        title="Gyzman"
+        rating={3.5}
+        genre="Mexican"
+        address="100 Some St. Main city 2000"
+        short_description="This is the most gratest Mexican restaurant in this town."
+        dishes={["Nacho", "Taco"]}
+        long={10}
+        lat={30}
+        />
       </ScrollView>
 
       {/* <Text>{id}</Text>
